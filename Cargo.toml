@@ -1,0 +1,19 @@
+[package]
+name = "rust-ws"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+name = "rust_ws"
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "server"
+path = "src/examples/main.rs"
+
+[dependencies]
+base64 = "0.22.1"
+event-emitter-rs = "0.1.4"
+sha1 = "0.10.6"
